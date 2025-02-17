@@ -1,35 +1,35 @@
-// //#1
-// function geetUser(message:string):void{
-//     console.log("Hello ",message)
-// }
-// geetUser("Alfed")
+//#1
+function geetUser(message:string):void{
+    console.log("Hello ",message)
+}
+geetUser("Alfed")
 
-// //#2
-// function sum(a: number,b: number):number{
-//     return a+b
-// }
+//#2
+function sum(a: number,b: number):number{
+    return a+b
+}
 
-// console.log(sum(1,2))
+console.log(sum(1,2))
 
-// //#3
-// function isLegal(age:number):boolean{
-//     if(age>=18)
-//         return true
-//     else
-//         return false
-// }
+//#3
+function isLegal(age:number):boolean{
+    if(age>=18)
+        return true
+    else
+        return false
+}
 
-// console.log(isLegal(14))
+console.log(isLegal(14))
 
-// //#4
-// function delayedCall(anotherFn:()=>void){
-//     setTimeout(anotherFn,1000)
-// }
+//#4
+function delayedCall(anotherFn:()=>void){
+    setTimeout(anotherFn,1000)
+}
 
-// const fn=()=>{
-//     console.log("hello")
-// }
-// delayedCall(fn)
+const fn=()=>{
+    console.log("hello")
+}
+delayedCall(fn)
 
 
 // how can you assign types to objects --by simply using either interface or type
